@@ -3,7 +3,7 @@ from PIL import Image
 import numpy as np
 
 # 제목
-st.title("사진 비교 앱")
+st.title("MIAS")
 
 # 사진 업로드
 uploaded_file1 = st.file_uploader("첫 번째 사진 업로드", type=["jpg", "png"])
